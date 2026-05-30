@@ -186,6 +186,11 @@ Vista completa de un modelo: features usadas, resultados sobre el período de en
 
 Predicciones día a día del modelo activo: apertura, máximo, mínimo, cierre real, cierre predicho y diferencia en dólares.
 
+### Ajustes
+![Ajustes](https://raw.githubusercontent.com/FrefLabs/NTI-client/refs/heads/master/screenshots/Pantalla%20de%20Ajustes.png)
+
+Configuración de la aplicación: activar/desactivar la red de refinamiento, activar/desactivar los efectos de sonido, cambiar la moneda preferida.
+
 ---
 
 ## Tecnologías
