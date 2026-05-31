@@ -1,5 +1,5 @@
 <p align="center">
-<img src="https://raw.githubusercontent.com/FrefLabs/NTI-client/master/src/img/IconoAplicativo.png" width="280" alt="N.T.I. Logo">
+<img src="https://raw.githubusercontent.com/FrefLabs/NTI-client/master/src/img/NTI-LOGO-FINAL.svg" width="420" alt="N.T.I. Logo">
 </p>
 
 <h2 align="center">NeuroFref Trading Intelligence</h2>
