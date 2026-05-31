@@ -193,21 +193,31 @@ Calculadas sobre el test set con valores desnormalizados a dólares reales:
 
 ### Pantalla de Inicio
 
+![Inicio](https://raw.githubusercontent.com/FrefLabs/NTI-client/master/screenshots/Pantalla%20de%20Inicio.png)
+
 Dashboard principal. Gráfico de línea/customizable (JFreeChart) con selector de estilo de gráfica (Línea / Línea y Puntos / Solo Puntos) y datos de los últimos 7 días. Panel de datos de la empresa seleccionada. Precio actual del ticker con actualización automática, recomendación diaria (COMPRAR / MANTENER / VENDER), precio de cierre predicho por el modelo activo, y feed de noticias recientes.
 
 ### Pantalla de Modelos
+
+![Modelos](https://raw.githubusercontent.com/FrefLabs/NTI-client/master/screenshots/Pantalla%20de%20Modelos.png)
 
 Lista de modelos disponibles con buscador en tiempo real. Muestra el modelo actualmente seleccionado con su precisión, error promedio y rango de entrenamiento. Botón para crear un nuevo modelo con todos los parámetros configurables.
 
 ### Detalle de modelo
 
+![Detalle](https://raw.githubusercontent.com/FrefLabs/NTI-client/master/screenshots/Pantalla%20de%20Modelo%20Seleccionado%20%28Modelos%29.png)
+
 Al hacer clic en un modelo se accede a la vista detalle: features usadas en el entrenamiento, métricas sobre el período de entrenamiento (MSE, RMSE, MAE, R², max/min error, percentil 90, precisión), métricas post-entrenamiento, e hiperparámetros usados.
 
 ### Historial
 
+![Historial](https://raw.githubusercontent.com/FrefLabs/NTI-client/master/screenshots/Pantalla%20de%20Historial.png)
+
 Predicciones día a día del modelo activo: fecha, apertura, máximo, mínimo, cierre real, cierre predicho y diferencia en dólares.
 
 ### Ajustes
+
+![Ajustes](https://raw.githubusercontent.com/FrefLabs/NTI-client/master/screenshots/Pantalla%20de%20Ajustes.png)
 
 Configuración de moneda (lista dinámica obtenida del servidor), red de refinamiento, efectos de sonido (SFX), y volumen de música con slider.
 
