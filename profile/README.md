@@ -13,7 +13,7 @@
   <img src="https://img.shields.io/badge/Python-3.9+-blue?style=flat-square&logo=python">
   <img src="https://img.shields.io/badge/Neuroph-2.98-8A2BE2?style=flat-square">
   <img src="https://img.shields.io/badge/FastAPI-0.104-009688?style=flat-square&logo=fastapi">
-  <img src="https://img.shields.io/badge/AWS_Lambda-Functions-FF9900?style=flat-square&logo=aws">
+  <img src="https://img.shields.io/badge/MariaDB-Database-003545?style=flat-square&logo=mariadb">
   <img src="https://img.shields.io/badge/Estado-Finalizado-2e7d32?style=flat-square">
 </p>
 
@@ -37,7 +37,7 @@ Para la gestión y desarrollo del ciclo de vida del software se utilizó la meto
 | Repo | Tecnología | Descripción |
 |---|---|---|
 | [NTI-client](https://github.com/FrefLabs/NTI-client) | Java 8 · Swing · JFreeChart | Interfaz de escritorio para el usuario |
-| [NTI-server](https://github.com/FrefLabs/NTI-server) | Java 8 · AWS Lambda | Servidor REST central + funciones Lambda, gestión de la cola de entrenamientos |
+| [NTI-server](https://github.com/FrefLabs/NTI-server) | Java 8 · MariaDB | Servidor REST central, gestión de la cola de entrenamientos |
 | [NTI-train](https://github.com/FrefLabs/NTI-train) | Java 8 · Neuroph | Cliente de entrenamiento distribuido (M1 y M2) |
 | [NTI-gateway](https://github.com/FrefLabs/NTI-gateway) | Python · FastAPI | Gateway de scripts financieros con soporte de Nodos WebSocket |
 | [NTI-node](https://github.com/FrefLabs/NTI-node) | Python · WebSockets | Nodo de cómputo que ejecuta scripts delegados por el gateway |
@@ -53,7 +53,7 @@ flowchart TD
   %% Definición de Nodos principales
   User([Usuario])
   Client[NTI-client<br/>Interfaz Swing / Escritorio]
-  Server[NTI-server<br/>Servidor Central / Java<br/>+ AWS Lambda]
+  Server[NTI-server<br/>Servidor Central / Java]
   Gateway[NTI-gateway<br/>API Python / FastAPI]
 
   %% Subgrafica para denotar el paralelismo de los trabajadores
@@ -231,7 +231,7 @@ Modo de juego educativo "Tira y Afloje" donde el jugador predice si el precio de
 
 **NTI-client:** Java 8 · Swing · CardLayout · JFreeChart 1.0.19 · Apache Ant
 
-**NTI-server:** Java 8 · HTTP Server embebido · AWS Lambda · MariaDB · OpenCSV
+**NTI-server:** Java 8 · HTTP Server embebido · MariaDB · OpenCSV
 
 **NTI-train:** Java 8 · Neuroph 2.98 · Apache Ant
 
